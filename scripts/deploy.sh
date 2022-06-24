@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-pnpm install pnpm -g
+npm install pnpm -g
 pnpm run build
 
 node scripts/build.js
