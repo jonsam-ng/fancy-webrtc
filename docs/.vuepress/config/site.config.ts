@@ -17,7 +17,7 @@ export const siteThemeColor = "#008ACB";
 
 export const siteIconFont = "//at.alicdn.com/t/font_3314748_9xij1pv3h4i.css";
 
-export const siteRepo = "fancy-webrtc";
+export const siteRepo = "jonsam-ng/fancy-webrtc";
 
 export const siteLicense = "MIT";
 
