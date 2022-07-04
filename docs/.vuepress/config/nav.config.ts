@@ -5,10 +5,6 @@
 export default [
   // ========== 示例 ========== //
   {
-    text: "源码",
-    link: "/source/index/",
-  },
-  {
     text: "基础",
     link: "/basic/",
   },
@@ -28,6 +24,10 @@ export default [
     ],
   },
   {
+    text: "源码",
+    link: "/source/index/",
+  },
+  {
     text: "索引",
     link: "/archives/",
     items: [
@@ -39,6 +39,7 @@ export default [
   {
     text: "更多",
     items: [
+      { text: "书籍资料", link: "https://ox.jonsam.site/tags/?tag=WebRTC" },
       { text: "关于", link: "/about/" },
       // generate by slidev
       { text: "幻灯片", link: `/slides/#/1` },
