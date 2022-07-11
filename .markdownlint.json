@@ -2,5 +2,7 @@
   "default": true,
   "no-inline-html": false,
   "line-length": false,
+  "no-duplicate-header": false,
+  "no-emphasis-as-header": false,
   "ul-indent": { "indent": 4 }
 }
