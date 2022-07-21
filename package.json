@@ -30,11 +30,11 @@
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-img-lazy": "^1.0.4",
+    "vuepress-plugin-reading-time": "^0.1.1",
     "vuepress-plugin-seo": "^0.2.0",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.8",
-    "vuepress-plugin-reading-time": "^0.1.1",
     "vuepress-theme-vdoing": "^1.11.2",
     "yamljs": "^0.3.0"
   },
@@ -42,6 +42,7 @@
     "qrcode.vue": "^1.7.0",
     "vue-core-video-player": "^0.2.0",
     "vue-pdf-embed": "^1.1.1",
+    "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-smplayer": "1"
   }
 }
