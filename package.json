@@ -5,6 +5,7 @@
     "dev": "vuepress dev docs",
     "build": "pnpm buildSli && vuepress build docs",
     "deploy": "bash scripts/deploy.sh",
+    "install": "",
     "editFm": "node utils/editFormatter.js",
     "baiduPush": "node utils/baiduPush.js https://webrtc.jonsam.site && bash scripts/baiduPush.sh",
     "updateTheme": "pnpm remove vuepress-theme-vdoing && rm -rf node_modules && pnpm install && pnpm add vuepress-theme-vdoing -D",
