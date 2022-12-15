@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>目录结构 | Fancy WebRTC</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_3314748_9xij1pv3h4i.css">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/img/manifest.json">
+    <link rel="apple-touch-icon" href="/img/android-chrome-192x192.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+    <meta name="description" content="WebRTC notes and learning map all you want.">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="keywords" content="webRTC学习,webRTC教程,webRTC入门">
+    <meta name="theme-color" content="#008ACB">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.fa1913f3.css" as="style"><link rel="preload" href="/assets/js/app.2b835d01.js" as="script"><link rel="preload" href="/assets/js/11.8f8d8c94.js" as="script"><link rel="preload" href="/assets/js/29.e406c2e9.js" as="script"><link rel="preload" href="/assets/js/20.cc7484e4.js" as="script"><link rel="preload" href="/assets/js/15.daa60dcc.js" as="script"><link rel="preload" href="/assets/js/13.f9165900.js" as="script"><link rel="prefetch" href="/assets/js/1.2068c1db.js"><link rel="prefetch" href="/assets/js/12.a86359d8.js"><link rel="prefetch" href="/assets/js/14.5bcc0334.js"><link rel="prefetch" href="/assets/js/16.2ef6dce7.js"><link rel="prefetch" href="/assets/js/17.8c318acc.js"><link rel="prefetch" href="/assets/js/18.7f4f6ced.js"><link rel="prefetch" href="/assets/js/19.7a274e56.js"><link rel="prefetch" href="/assets/js/21.8f4f04c1.js"><link rel="prefetch" href="/assets/js/22.8e03dbef.js"><link rel="prefetch" href="/assets/js/23.ae5d7b1a.js"><link rel="prefetch" href="/assets/js/24.a07e377d.js"><link rel="prefetch" href="/assets/js/25.ae45a243.js"><link rel="prefetch" href="/assets/js/26.292813ba.js"><link rel="prefetch" href="/assets/js/27.b5422518.js"><link rel="prefetch" href="/assets/js/28.5b569d05.js"><link rel="prefetch" href="/assets/js/30.0eba634f.js"><link rel="prefetch" href="/assets/js/31.4f67e3d8.js"><link rel="prefetch" href="/assets/js/32.9e0293ef.js"><link rel="prefetch" href="/assets/js/33.7c756595.js"><link rel="prefetch" href="/assets/js/34.335b4f17.js"><link rel="prefetch" href="/assets/js/35.01786aab.js"><link rel="prefetch" href="/assets/js/36.f2070bed.js"><link rel="prefetch" href="/assets/js/37.7c70043c.js"><link rel="prefetch" href="/assets/js/38.303adcdf.js"><link rel="prefetch" href="/assets/js/39.39b0a121.js"><link rel="prefetch" href="/assets/js/40.27cf0425.js"><link rel="prefetch" href="/assets/js/41.60cc5ac0.js"><link rel="prefetch" href="/assets/js/42.48c15345.js"><link rel="prefetch" href="/assets/js/43.836eadb6.js"><link rel="prefetch" href="/assets/js/44.f83a74c1.js"><link rel="prefetch" href="/assets/js/45.1325bd73.js"><link rel="prefetch" href="/assets/js/46.26125c7a.js"><link rel="prefetch" href="/assets/js/47.d8603164.js"><link rel="prefetch" href="/assets/js/48.6a5f1eab.js"><link rel="prefetch" href="/assets/js/49.2d88e192.js"><link rel="prefetch" href="/assets/js/50.e1d6d683.js"><link rel="prefetch" href="/assets/js/51.5204c164.js"><link rel="prefetch" href="/assets/js/52.890170b0.js"><link rel="prefetch" href="/assets/js/53.7d5218da.js"><link rel="prefetch" href="/assets/js/54.081d6d8a.js"><link rel="prefetch" href="/assets/js/55.9193e648.js"><link rel="prefetch" href="/assets/js/56.c283c363.js"><link rel="prefetch" href="/assets/js/57.36ca963e.js"><link rel="prefetch" href="/assets/js/58.ca50e853.js"><link rel="prefetch" href="/assets/js/59.1dfc405f.js"><link rel="prefetch" href="/assets/js/60.a6aafe70.js"><link rel="prefetch" href="/assets/js/61.35b09da6.js"><link rel="prefetch" href="/assets/js/62.d9905bc4.js"><link rel="prefetch" href="/assets/js/63.f502a4a5.js"><link rel="prefetch" href="/assets/js/64.63cb0948.js"><link rel="prefetch" href="/assets/js/65.15922937.js"><link rel="prefetch" href="/assets/js/66.0f2a61bf.js"><link rel="prefetch" href="/assets/js/67.b9bb6554.js"><link rel="prefetch" href="/assets/js/68.c993ab07.js"><link rel="prefetch" href="/assets/js/69.16e4d5cd.js"><link rel="prefetch" href="/assets/js/70.453a604a.js"><link rel="prefetch" href="/assets/js/71.57070527.js"><link rel="prefetch" href="/assets/js/72.7edf97b7.js"><link rel="prefetch" href="/assets/js/73.cb826c97.js"><link rel="prefetch" href="/assets/js/74.f40761ed.js"><link rel="prefetch" href="/assets/js/75.a8fde850.js"><link rel="prefetch" href="/assets/js/76.71255e54.js"><link rel="prefetch" href="/assets/js/77.de20ce37.js"><link rel="prefetch" href="/assets/js/78.91afa182.js"><link rel="prefetch" href="/assets/js/79.5ec162b8.js"><link rel="prefetch" href="/assets/js/80.81ba4a79.js"><link rel="prefetch" href="/assets/js/81.dd9dad97.js"><link rel="prefetch" href="/assets/js/82.5d12f510.js"><link rel="prefetch" href="/assets/js/83.14bee419.js"><link rel="prefetch" href="/assets/js/84.f01335e5.js"><link rel="prefetch" href="/assets/js/vendors~aplayer.ef69e8c8.js"><link rel="prefetch" href="/assets/js/vendors~artplayer.9f457d6b.js"><link rel="prefetch" href="/assets/js/vendors~dash.c779a1b8.js"><link rel="prefetch" href="/assets/js/vendors~dplayer.008e957a.js"><link rel="prefetch" href="/assets/js/vendors~hls.18d1f653.js"><link rel="prefetch" href="/assets/js/vendors~mpegts.02ab45df.js"><link rel="prefetch" href="/assets/js/vendors~shaka-player.f723bd71.js"><link rel="prefetch" href="/assets/js/vendors~webtorrent.271bb3b6.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.fa1913f3.css">
+  </head>
+  <body class="theme-mode-light">
+    <div id="app" data-server-rendered="true"><div class="theme-container sidebar-open have-rightmenu"><header class="navbar blur"><div title="目录" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.png" alt="Fancy WebRTC" class="logo"> <span class="site-name can-hide">Fancy WebRTC</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/basic/" class="nav-link">基础</a></div><div class="nav-item"><a href="/advance/" class="nav-link">进阶</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="话题" class="dropdown-title"><a href="/topic/" class="link-title">话题</a> <span class="title" style="display:none;">话题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/jonsam-ng/fancy-webrtc-demos" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  实例
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="/source/index/" class="nav-link">源码</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/archives/" class="nav-link">归档</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><!----> <span class="title" style="display:;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://ox.jonsam.site/tags/?tag=WebRTC" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  书籍资料
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="/about/" class="nav-link">关于</a></li><li class="dropdown-item"><!----> <a href="/slides/#/1" class="nav-link">幻灯片</a></li></ul></div></div><div class="nav-item"><a href="https://www.jonsam.site" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/jonsam-ng/fancy-webrtc" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar-hover-trigger"></div> <aside class="sidebar" style="display:none;"><div class="blogger"><img src="https://cdn.staticaly.com/gh/jonsam-ng/image-hosting@master/oxygen-space/image.5a0lthv367k0.png"> <div class="blogger-info"><h3>Jonsam NG</h3> <span>让有意义的事变得有意思，让有意思的事变得有意义</span></div></div> <nav class="nav-links"><div class="nav-item"><a href="/basic/" class="nav-link">基础</a></div><div class="nav-item"><a href="/advance/" class="nav-link">进阶</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="话题" class="dropdown-title"><a href="/topic/" class="link-title">话题</a> <span class="title" style="display:none;">话题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/jonsam-ng/fancy-webrtc-demos" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  实例
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="/source/index/" class="nav-link">源码</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="索引" class="dropdown-title"><a href="/archives/" class="link-title">索引</a> <span class="title" style="display:none;">索引</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/" class="nav-link">分类</a></li><li class="dropdown-item"><!----> <a href="/tags/" class="nav-link">标签</a></li><li class="dropdown-item"><!----> <a href="/archives/" class="nav-link">归档</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><!----> <span class="title" style="display:;">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://ox.jonsam.site/tags/?tag=WebRTC" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  书籍资料
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="/about/" class="nav-link">关于</a></li><li class="dropdown-item"><!----> <a href="/slides/#/1" class="nav-link">幻灯片</a></li></ul></div></div><div class="nav-item"><a href="https://www.jonsam.site" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <a href="https://github.com/jonsam-ng/fancy-webrtc" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><a href="/source/index/" class="sidebar-link">开始上手</a></li><li><a href="/source/plan/" class="sidebar-link">Plan 计划</a></li><li><a href="/source/roadmap/" class="sidebar-link">Roadmap 路线</a></li><li><a href="/source/category/" aria-current="page" class="active sidebar-link">目录结构</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header level2"><a href="/source/category/#结构概览" class="sidebar-link">结构概览</a></li><li class="sidebar-sub-header level2"><a href="/source/category/#根目录" class="sidebar-link">根目录</a></li><li class="sidebar-sub-header level2"><a href="/source/category/#modules目录" class="sidebar-link">modules目录</a></li></ul></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>API</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <div><main class="page"><div class="theme-vdoing-wrapper bg-style-6"><div class="articleInfo-wrap" data-v-3f4da221><div class="articleInfo" data-v-3f4da221><ul class="breadcrumbs" data-v-3f4da221><li data-v-3f4da221><a href="/" title="首页" class="iconfont icon-home router-link-active" data-v-3f4da221></a></li> <li data-v-3f4da221><a href="/categories/?category=%E6%BA%90%E7%A0%81" title="分类" data-v-3f4da221>源码</a></li></ul> <div class="info" data-v-3f4da221><div title="作者" class="author iconfont icon-touxiang" data-v-3f4da221><a href="https://github.com/jonsam-ng" target="_blank" title="作者" class="beLink" data-v-3f4da221>jonsam</a></div> <div title="创建时间" class="date iconfont icon-riqi" data-v-3f4da221><a href="javascript:;" data-v-3f4da221>2022-07-14</a></div> <!----></div></div></div> <!----> <div class="content-wrapper"><div class="right-menu-wrapper"><div class="right-menu-margin"><div class="right-menu-title">目录</div> <div class="right-menu-content"></div></div></div> <h1><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAABGpJREFUSA3tVVtoXFUU3fvOI53UlmCaKIFmwEhsE7QK0ipFEdHEKpXaZGrp15SINsXUWvBDpBgQRKi0+KKoFeJHfZA+ED9KKoIU2gYD9UejTW4rVIzm0VSTziPzuNu1z507dibTTjL4U/DAzLn3nL3X2o91ziX6f9wMFdh6Jvbm9nNSV0msViVO6tN1Rm7NMu2OpeJ9lWBUTDxrJbYTS0hInuwciu9eLHlFxCLCZEk3MegsJmZ5K/JD6t7FkFdEvGUo1g7qJoG3MHImqRIn8/nzY1K9UPKKiJmtnUqHVE3Gbuay6vJE/N2FEmuxFjW2nUuE0yQXRRxLiTUAzs36zhZvOXJPdX850EVnnLZkB8prodQoM5JGj7Xk2mvC7JB8tG04Ef5PiXtG0UtxupRQSfTnBoCy554x18yJHI6I+G5Eru4LHmPJZEQsrvPUbMiA8G/WgMK7w7I+ez7++o2ANfbrjvaOl1tFMs+htG3IrZH9/hDX1Pr8Tc0UvH8tcX29KzAgIGcEkINyW5BF9x891hw6VYqgJHEk0huccS7vh3C6gTiODL+26huuBtbct8eZnqLML8PkxGYpuPZBqtqwkSjgc4mB5gbgig5i+y0UDK35LMxXisn9xQtK+nd26gTIHsHe/oblK/b29fUmN/8Y+9jAQrnBp56m1LcDlDp9irKTExSKduXJVWSqdBMA08pEJnEIOB3FPPMybu/oeV8zFeYN3xx576Q6RH+VmplE4ncQV5v+5rzSoyOU7PuEAg8g803PwBJ0CExno/jcMbN8tONYeOmHiuUNryvm3fRUy4tMPVLdAGkUhNWuggGrJcXPv+ouCjz0MKUHz1J2/E8IC9nqTabcxgaBYM0hPhD5Y65FsbxRQKxCQrDjDctW7PUM3HuZunFyifSAqEfuzCp48Il24luWUWZoyJCaPR82jE0+kFA643wRFVni4RYSq3ohJO2pZ7B5dO4xkDWbEpossJPLSrPjYID8rS2UHTlvyNxqIGsg674XJJ7vnh5L7PNwC4hh2sjCI96mzszOTpxLF0T7l88Yz7lAuK6OnL8gXLOnTvpzSb22YG8W7us3jSebFHeeqnXRG1vt+MoUM84LQIBmMsCTAcOauTh0T0l0neQK7m2bLMt2mGxU3HYssS0J2cdv5wljlPsrIuZLAG/2DOZIXgCYT8uMGZN+e2kSirfxZOPCsC0f24nTZzspnVn9VePS1Z5vubmAGGXG8ZFno9Hel0yfA5ZPhF7Dh972BQJ2qCpgH67lmWtBYbvk6sz02wjky2vXyz0XErP/kFB619js1BtwfOV4OPRqOQBjy3Qbk18vigUPPSD5ceHnwck7W9bhAqZdd7SuG7w4/P2F/GaJh8c7e9qgow+Q7cGBo+98WsLkuktFqiZabtXuQTu/Y5ETbR0v7tNSFnvrmu6pjdoan2KjMu8q/Hmj1EfCO2ZGfEIbIXKUlw8qaX9/b2oeSJmFksSeT/Fn0V3nSypChh4Gjh74ybO9aeZ/AN2dwciu2/MhAAAAAElFTkSuQmCC">目录结构<!----></h1>  <div class="theme-vdoing-content content__default"><h2 id="结构概览"><a href="#结构概览" class="header-anchor">#</a> 结构概览</h2> <div class="language-txt line-numbers-mode"><pre class="language-txt"><code>// tree -L 2 -d
+.
+├── api
+│   ├── adaptation
+│   ├── audio
+│   ├── audio_codecs
+│   ├── call
+│   ├── crypto
+│   ├── g3doc
+│   ├── metronome
+│   ├── neteq
+│   ├── numerics
+│   ├── rtc_event_log
+│   ├── stats
+│   ├── task_queue
+│   ├── test
+│   ├── transport
+│   ├── units
+│   ├── video
+│   ├── video_codecs
+│   └── voip
+├── audio
+│   ├── test
+│   ├── utility
+│   └── voip
+├── build_overrides
+├── call
+│   ├── adaptation
+│   └── test
+├── common_audio
+│   ├── include
+│   ├── mocks
+│   ├── resampler
+│   ├── signal_processing
+│   ├── third_party
+│   └── vad
+├── common_video
+│   ├── generic_frame_descriptor
+│   ├── h264
+│   ├── include
+│   ├── libyuv
+│   └── test
+├── data
+│   ├── audio_processing
+│   └── voice_engine
+├── docs
+│   └── native-code
+├── examples
+│   ├── aarproject
+│   ├── androidapp
+│   ├── androidjunit
+│   ├── androidnativeapi
+│   ├── androidtests
+│   ├── androidvoip
+│   ├── objc
+│   ├── objcnativeapi
+│   ├── peerconnection
+│   ├── stunprober
+│   ├── stunserver
+│   ├── turnserver
+│   └── unityplugin
+├── g3doc
+│   └── style-guide
+├── infra
+│   ├── config
+│   └── specs
+├── logging
+│   ├── g3doc
+│   └── rtc_event_log
+├── media
+│   ├── base
+│   ├── engine
+│   └── sctp
+├── modules
+│   ├── async_audio_processing
+│   ├── audio_coding
+│   ├── audio_device
+│   ├── audio_mixer
+│   ├── audio_processing
+│   ├── congestion_controller
+│   ├── desktop_capture
+│   ├── include
+│   ├── pacing
+│   ├── remote_bitrate_estimator
+│   ├── rtp_rtcp
+│   ├── third_party
+│   ├── utility
+│   ├── video_capture
+│   ├── video_coding
+│   └── video_processing
+├── net
+│   └── dcsctp
+├── p2p
+│   ├── base
+│   ├── client
+│   ├── g3doc
+│   └── stunprober
+├── pc
+│   ├── g3doc
+│   ├── scenario_tests
+│   └── test
+├── resources
+│   ├── audio_coding
+│   ├── audio_device
+│   ├── audio_processing
+│   ├── images
+│   ├── media
+│   ├── network_tester
+│   ├── remote_bitrate_estimator
+│   ├── rtp_rtcp
+│   ├── utility
+│   ├── video_coding
+│   ├── video_engine
+│   └── voice_engine
+├── rtc_base
+│   ├── containers
+│   ├── deprecated
+│   ├── experiments
+│   ├── internal
+│   ├── java
+│   ├── memory
+│   ├── network
+│   ├── numerics
+│   ├── strings
+│   ├── synchronization
+│   ├── system
+│   ├── task_utils
+│   ├── third_party
+│   ├── time
+│   ├── units
+│   └── win
+├── rtc_tools
+│   ├── audioproc_f
+│   ├── converter
+│   ├── data_channel_benchmark
+│   ├── frame_analyzer
+│   ├── network_tester
+│   ├── psnr_ssim_analyzer
+│   ├── py_event_log_analyzer
+│   ├── rtc_event_log_visualizer
+│   ├── rtp_generator
+│   ├── testing
+│   └── unpack_aecdump
+├── sdk
+│   ├── android
+│   └── objc
+├── stats
+│   └── test
+├── system_wrappers
+│   ├── include
+│   └── source
+├── test
+│   ├── android
+│   ├── fuzzers
+│   ├── gl
+│   ├── ios
+│   ├── linux
+│   ├── logging
+│   ├── mac
+│   ├── network
+│   ├── pc
+│   ├── peer_scenario
+│   ├── scenario
+│   ├── testsupport
+│   ├── time_controller
+│   └── win
+├── tools_webrtc
+│   ├── android
+│   ├── apple
+│   ├── audio_quality
+│   ├── autoroller
+│   ├── coverage
+│   ├── cpu
+│   ├── ios
+│   ├── iwyu
+│   ├── libs
+│   ├── matlab
+│   ├── mb
+│   ├── msan
+│   ├── network_emulator
+│   ├── perf
+│   ├── presubmit_checks_lib
+│   ├── sanitizers
+│   ├── sslroots
+│   ├── ubsan
+│   ├── version_updater
+│   ├── video_quality_toolchain
+│   └── vim
+└── video
+    ├── adaptation
+    ├── end_to_end_tests
+    ├── g3doc
+    └── test
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br><span class="line-number">144</span><br><span class="line-number">145</span><br><span class="line-number">146</span><br><span class="line-number">147</span><br><span class="line-number">148</span><br><span class="line-number">149</span><br><span class="line-number">150</span><br><span class="line-number">151</span><br><span class="line-number">152</span><br><span class="line-number">153</span><br><span class="line-number">154</span><br><span class="line-number">155</span><br><span class="line-number">156</span><br><span class="line-number">157</span><br><span class="line-number">158</span><br><span class="line-number">159</span><br><span class="line-number">160</span><br><span class="line-number">161</span><br><span class="line-number">162</span><br><span class="line-number">163</span><br><span class="line-number">164</span><br><span class="line-number">165</span><br><span class="line-number">166</span><br><span class="line-number">167</span><br><span class="line-number">168</span><br><span class="line-number">169</span><br><span class="line-number">170</span><br><span class="line-number">171</span><br><span class="line-number">172</span><br><span class="line-number">173</span><br><span class="line-number">174</span><br><span class="line-number">175</span><br><span class="line-number">176</span><br><span class="line-number">177</span><br><span class="line-number">178</span><br><span class="line-number">179</span><br><span class="line-number">180</span><br><span class="line-number">181</span><br><span class="line-number">182</span><br><span class="line-number">183</span><br><span class="line-number">184</span><br><span class="line-number">185</span><br><span class="line-number">186</span><br><span class="line-number">187</span><br><span class="line-number">188</span><br><span class="line-number">189</span><br><span class="line-number">190</span><br><span class="line-number">191</span><br><span class="line-number">192</span><br><span class="line-number">193</span><br></div></div><h2 id="根目录"><a href="#根目录" class="header-anchor">#</a> 根目录</h2> <table><thead><tr><th>目录</th> <th>功能</th> <th>备注</th></tr></thead> <tbody><tr><td>api</td> <td>WebRTC接口层，浏览器都是通过该接口调用WebRTC,包括 DataChannel, MediaStream, SDP相关的接口</td> <td></td></tr> <tr><td>call</td> <td>数据流的管理层，Call代表同一个点的所有数据的流入流出,存放的是 WebRTC “呼叫（Call）” 相关逻辑层的代码。</td> <td></td></tr> <tr><td>video</td> <td>与视频相关的逻辑,视频逻辑层及视频引擎层的相关的代码。视频数据逻辑上的发送，接收等代码。</td> <td></td></tr> <tr><td>common_video</td> <td>视频算法相关,存放了视频算法相关的常用工具，如libyuv, sps/pps分析器，I420缓冲器等。</td> <td></td></tr> <tr><td>audio</td> <td>与音频相关的逻辑,音频数据逻辑上的发送，接收等代码。</td> <td></td></tr> <tr><td>common_audio</td> <td>音频算法相关,存放一些音频的基本算法。包括环形队列，博利叶算法，滤波器等。</td> <td></td></tr> <tr><td>media</td> <td>与多媒体相关的逻辑处理，如编解码的逻辑处理</td> <td></td></tr> <tr><td>logging</td> <td>日志相关</td> <td></td></tr> <tr><td>modules</td> <td>最重要的目录，子模块</td> <td></td></tr> <tr><td>pc</td> <td>Peer Connection连接相关的逻辑,存放一些业务逻辑层的代码。如 channel, session等</td> <td></td></tr> <tr><td>p2p</td> <td>端对端相关代码，stun, turn</td> <td></td></tr> <tr><td>rtc_base</td> <td>基础代码，如线程，锁相关的统一接口代码</td> <td></td></tr> <tr><td>rtc_tools</td> <td>音视频分析相关的工具代码</td> <td></td></tr> <tr><td>tools_webrtc</td> <td>WebRTC测试相关的工具代码，如网络模拟器</td> <td></td></tr> <tr><td>system_wrappers</td> <td>与具体操作系统相关的代码。如CPU特性，原子操作等</td> <td></td></tr> <tr><td>stats</td> <td>存放各种数据统计相关的类</td> <td></td></tr> <tr><td>sdk</td> <td>存放Android和IOS层代码。如视频的采集，渲染等</td> <td></td></tr></tbody></table> <h2 id="modules目录"><a href="#modules目录" class="header-anchor">#</a> modules目录</h2> <table><thead><tr><th>目录</th> <th>功能</th> <th>备注</th></tr></thead> <tbody><tr><td>audio_coding</td> <td>音频编解码相关代码</td> <td>audio_coding，是和编解码逻辑相关的，会用编解码，这里的audio_coding它是编解码器，都是放在audio_coding这个目录下。</td></tr> <tr><td>audio_device</td> <td>视频采集与音频播放相关代码</td> <td>audio_device它是和设备相关的，它做了一个区分，安卓和IOS放在sdk下面了，它相应的一些代码移到sdk里面了，在以前的webrtc版本 ，所有的设备都是 放在audio_device里面 ，包括我们的windows和MAC下的以及Linux下的，都是在audio_device这个目录下。</td></tr> <tr><td>audio_mixer</td> <td>混音相关代码</td> <td>audio_mixer,就是混音相关的，混音就好比开会时多人实时互动，比如四个人同时在说话，就要给它混在一起，这样在传输的时候就比较方便，这个减少了音频流，所以这个混音相关的就放在audio_mixer里面。</td></tr> <tr><td>audio_processing</td> <td>音频前后处理相关代码</td> <td>audio_processing就是音频的前处理后处理，音频的前处理后处理就好比回音消除、降噪、增益等，都是放在audio_processing里面。这个目录里面又分了很多子目录，在后面你就 大体的知道这个相关的在这个目录下。以及在这个目录下再找子目录</td></tr> <tr><td>bitrate_controller</td> <td>码率控制相关代码</td> <td>bitrate_controller,这个是码流控制的，比如说控制这个码流，视频的码流是500k还是1M。这个码流的控制。如果想知道相关的码流他是怎么控制的 ，那么可以到这里去看。</td></tr> <tr><td>congestion_controller</td> <td>流控制相关代码</td> <td>-congestion_controller，就是流量控制，当我能检测到网络流量比较高的时候，我们要做一些流量控制，防止这个网络包将带宽打死，具体怎么控制就是在这里做的相关的逻辑。所以如果我要 了解流量控制相关的，就到这个目录下面去找。</td></tr> <tr><td>desktop_capture</td> <td>桌面采集相关代码</td> <td>--</td></tr> <tr><td>pacing</td> <td>码率探测及平滑处理相关代码</td> <td>pacing的作用是码率的侦测和平滑处理，我首先要检测到音频视频的码率是怎样的，做到之后我们要做到一个平滑的处理，我们不能让他一下子就发送出去，应该对他做一下平滑，比如有时候是10k有时候是500k,我们让他平均一下。</td></tr> <tr><td>remote_bitrate_estimator</td> <td>远端码率估算相关的代码</td> <td>emote_bitrate_estimator的作用是远程码率评估，我远端能接收的带宽是多少，一个是我本地的带宽，一个是远端的带宽，不光我能发多少还有对方能收多少，所以要有一个远端的码率的评估，这是放在remote_bitrate_estimator目录下</td></tr> <tr><td>rtc_rtcp</td> <td>rtp/rtcp协议相关代码</td> <td>--</td></tr> <tr><td>video_capture</td> <td>视频采集相关代码</td> <td>video_capture我捕获视频的相关的代码，放在video_capture里面</td></tr> <tr><td>video_coding</td> <td>视频编解码相关代码</td> <td>视频的编码，如H264,VP 8,VP 9，等，这个编码器都是放在video_coding里面。</td></tr> <tr><td>video_processing</td> <td>视频前后处理相关的代码</td> <td>video_processing，就是视频的前处理和后处理，如视频帧的增强，检测，如果我们增加人脸识别可以放到video_processing这个目录下。</td></tr></tbody></table></div></div>  <div class="page-edit"><div class="edit-link"><a href="https://github.com/jonsam-ng/fancy-webrtc/edit/master/docs/10.源码/4.目录结构.md" target="_blank" rel="noopener noreferrer">编辑</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2022/07/21, 16:40:55</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/source/roadmap/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">Roadmap 路线</div></a> <a href="/source/api/index/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">本章导读</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/source/roadmap/" class="prev">Roadmap 路线</a></span> <span class="next"><a href="/source/api/index/">本章导读</a>→
+      </span></p></div></div></div> <div class="article-list"><div class="article-title"><a href="/archives" class="iconfont icon-bi">最近更新</a></div> <div class="article-wrapper"><dl><dd>01</dd> <dt><a href="/basic/p2p/stun/"><div>
+            STUN 详解
+            <!----></div></a> <span class="date">07-21</span></dt></dl><dl><dd>02</dd> <dt><a href="/source/api/index/"><div>
+            本章导读
+            <!----></div></a> <span class="date">07-14</span></dt></dl><dl><dd>03</dd> <dt><a href="/basic/app/streamCapture/"><div>
+            streamCapture
+            <!----></div></a> <span class="date">07-11</span></dt></dl> <dl><dd></dd> <dt><a href="/archives" class="more">更多文章&gt;</a></dt></dl></div></div></main></div> <div class="footer"><div class="icons"><a href="mailto:jonsam.ng@foxmail.com" title="发邮件" target="_blank" class="iconfont icon-youjian"></a><a href="https://github.com/jonsam-ng" title="GitHub" target="_blank" class="iconfont icon-github"></a><a href="https://www.jonsam.site" title="博客" target="_blank" class="iconfont icon-mao"></a><a href="https://docs.jonsam.site" title="文档" target="_blank" class="iconfont icon-shuben"></a><a href="https://source.jonsam.site" title="源码" target="_blank" class="iconfont icon-code"></a></div> 
+  Theme by
+  <a href="https://github.com/xugaoyi/vuepress-theme-vdoing" target="_blank" title="本站主题">Vdoing</a> 
+    | Copyright © 2022-2022
+    <span>Fancy WebRTC | Template by <a href="https://jonsam-ng.github.io/fancy-note-starter/">Fancy Note Starter</a> | Made by <a href=https://www.jonsam.site target="_blank">jonsam</a> with ❤</span></div> <div class="buttons"><div title="返回顶部" class="button blur go-to-top iconfont icon-fanhuidingbu" style="display:none;"></div> <div title="去评论" class="button blur go-to-comment iconfont icon-pinglun" style="display:none;"></div> <div title="主题模式" class="button blur theme-mode-but iconfont icon-zhuti"><ul class="select-box" style="display:none;"><li class="iconfont icon-zidong">
+          跟随系统
+        </li><li class="iconfont icon-rijianmoshi">
+          浅色模式
+        </li><li class="iconfont icon-yejianmoshi">
+          深色模式
+        </li><li class="iconfont icon-yuedu">
+          阅读模式
+        </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"><div></div><!----><!----><!----><div></div><div></div></div></div>
+    <script src="/assets/js/app.2b835d01.js" defer></script><script src="/assets/js/11.8f8d8c94.js" defer></script><script src="/assets/js/29.e406c2e9.js" defer></script><script src="/assets/js/20.cc7484e4.js" defer></script><script src="/assets/js/15.daa60dcc.js" defer></script><script src="/assets/js/13.f9165900.js" defer></script>
+  </body>
+</html>
